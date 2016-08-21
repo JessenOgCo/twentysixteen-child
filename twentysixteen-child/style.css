@@ -1,0 +1,22 @@
+/*
+Theme Name: twentysixteen Child Theme
+Description: Child theme twentysixteen.
+Author: TBJE
+Template: twentysixteen
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body{ 
+    background-color: aquamarine !important;
+}
+
+.site-title a  {
+    color: #FF0000 !important;
+}
+
+h2.entry-title {
+  font-family: 'Bangers', cursive;
+  color: #fff; 
+  background-color: yellow;
+}
