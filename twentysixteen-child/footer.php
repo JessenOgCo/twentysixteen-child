@@ -1,8 +1,9 @@
 <?php
 /**
  * The template for displaying the footer
+ * The template for displaying the footer
  *
- * Contains the closing of the #content div and all content after
+ * TEST   Contains the closing of the #content div and all content after
  *
  * @package WordPress
  * @subpackage Twenty_Sixteen
@@ -12,7 +13,7 @@
 
 		</div><!-- .site-content -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo"> 
+		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
 				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
 					<?php
@@ -24,7 +25,7 @@
 				</nav><!-- .main-navigation -->
 			<?php endif; ?>
 
-			
+
 			<?php endif; ?>
 
 			<div class="site-info">
